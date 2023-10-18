@@ -1,16 +1,3 @@
-name: SetSpawn
+name: SetSpawnUpdate
 version: '${project.version}'
-main: me.skycraftalfieedyvean.setspawn.SetSpawn
-commands:
-  setspawn:
-    description: "Set the spawn"
-    usage: "/setspawn"
-    permission-message: "You don't have the required permissions to use this command"
-    permission: "spawn.set"
-  spawn:
-    usage: "/spawn"
-    description: "Sends to the spawn"
-permissions:
-  spawn.set:
-    default: op
-    description: "Spawn set"
+main: me.widdleljk.setspawnupdate.SetSpawnUpdate

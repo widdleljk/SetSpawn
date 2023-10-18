@@ -1,12 +1,12 @@
-package me.skycraftalfieedyvean.setspawn;
+package me.widdleljk.setspawnupdate;
 
-import me.skycraftalfieedyvean.setspawn.commands.SetSpawnCommand;
-import me.skycraftalfieedyvean.setspawn.commands.SpawnCommand;
-import me.skycraftalfieedyvean.setspawn.listeners.SetSpawnListener;
+import me.widdleljk.setspawnupdate.commands.SpawnCommand;
+import me.widdleljk.setspawnupdate.listeners.SetSpawnListener;
 import org.bukkit.plugin.java.JavaPlugin;
+import me.widdleljk.setspawnupdate.commands.SetSpawnCommand;
 
-public final class SetSpawn extends JavaPlugin {
-    private static SetSpawn plugin;
+public final class SetSpawnUpdate extends JavaPlugin {
+    private static SetSpawnUpdate plugin;
 
     @Override
     public void onEnable() {
@@ -27,7 +27,7 @@ public final class SetSpawn extends JavaPlugin {
         // Plugin shutdown logic
     }
 
-    public static SetSpawn getPlugin() {
+    public static SetSpawnUpdate getPlugin() {
         return plugin;
     }
 }

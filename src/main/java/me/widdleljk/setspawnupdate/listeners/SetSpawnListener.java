@@ -1,6 +1,6 @@
-package me.skycraftalfieedyvean.setspawn.listeners;
+package me.widdleljk.setspawnupdate.listeners;
 
-import me.skycraftalfieedyvean.setspawn.SetSpawn;
+import me.widdleljk.setspawnupdate.SetSpawnUpdate;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -9,9 +9,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 
 public class SetSpawnListener implements Listener {
-    private final SetSpawn plugin;
+    private final SetSpawnUpdate plugin;
 
-    public SetSpawnListener(SetSpawn plugin) {
+    public SetSpawnListener(SetSpawnUpdate plugin) {
         this.plugin = plugin;
     }
 
